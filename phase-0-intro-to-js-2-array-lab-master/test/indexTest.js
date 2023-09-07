@@ -1,4 +1,4 @@
-onst helpers = require('./helpers.js');
+const helpers = require('./helpers.js');
 
 describe('index.js', function () {
   describe('cats', function () {
@@ -26,3 +26,4 @@ describe('index.js', function () {
         expect(cats).to.have.ordered.members(["Bob", "Milo", "Otis", "Garfield"]);
       });
     });
+
