@@ -26,4 +26,5 @@ describe('index.js', function () {
         expect(cats).to.have.ordered.members(["Bob", "Milo", "Otis", "Garfield"]);
       });
     });
-
+  });
+});
